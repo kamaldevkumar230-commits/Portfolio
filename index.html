@@ -3,50 +3,103 @@
 <head>
 <meta charset="UTF-8">
 <title>Kamaldev Kumar | Java Web Developer</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header class="header">
-  <h1>Kamaldev Kumar</h1>
-  <p>Java Web Developer | Freelancer</p>
-  <a href="#contact" class="btn">Hire Me</a>
+<!-- HERO -->
+<header class="hero">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-7">
+        <h1>Kamaldev Kumar</h1>
+        <h4>Java Web Developer & Freelancer</h4>
+        <p>Building secure, scalable & professional web applications.</p>
+        <a href="#projects" class="btn btn-warning btn-lg">View Work</a>
+      </div>
+
+      <div class="col-md-5 text-center">
+        <img src="images/profile1.jpg" class="hero-img" alt="Profile">
+      </div>
+
+    </div>
+  </div>
 </header>
 
-<section class="about">
-  <h2>About Me</h2>
-  <p>
-    I am a Java Web Developer with hands-on experience in Java, JSP, Servlets,
-    and MySQL. I build secure and scalable web applications.
-  </p>
-</section>
-
-<section class="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>Java</li>
-    <li>JSP & Servlets</li>
-    <li>HTML, CSS, Bootstrap</li>
-    <li>MySQL</li>
-  </ul>
-</section>
-
-<section class="projects">
-  <h2>Projects</h2>
-  <div class="project">
-    <h3>Student Management System</h3>
-    <p>Java, JSP, Servlets, MySQL</p>
-  </div>
-  <div class="project">
-    <h3>ShopEase – E-Commerce Website</h3>
-    <p>Java, JSP, Servlets, MySQL</p>
+<!-- ABOUT -->
+<section class="section">
+  <div class="container text-center">
+    <h2 class="title">About Me</h2>
+    <p class="text-muted w-75 mx-auto">
+      I am a Java Web Developer experienced in Java, JSP, Servlets, MySQL and Bootstrap.
+      I create clean backend logic, responsive UI and industry-ready applications.
+    </p>
   </div>
 </section>
 
-<section class="contact" id="contact">
-  <h2>Contact</h2>
-  <p>Email: kamaldev@example.com</p>
-  <p>GitHub: github.com/yourusername</p>
+<!-- SKILLS -->
+<section class="section bg-soft">
+  <div class="container">
+    <h2 class="title text-center">Skills</h2>
+
+    <div class="row g-4 mt-4">
+      <div class="col-md-3">
+        <div class="glass-card">Java</div>
+      </div>
+      <div class="col-md-3">
+        <div class="glass-card">JSP & Servlets</div>
+      </div>
+      <div class="col-md-3">
+        <div class="glass-card">HTML • CSS • Bootstrap</div>
+      </div>
+      <div class="col-md-3">
+        <div class="glass-card">MySQL</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="container">
+    <h2 class="title text-center">Projects</h2>
+
+    <div class="row g-4 mt-4">
+
+      <div class="col-md-6">
+        <div class="project-box">
+          <h4>Student Management System</h4>
+          <span>Java • JSP • Servlets • MySQL</span>
+          <p>Secure login, CRUD operations, JDBC integration, admin panel.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="project-box">
+          <h4>ShopEase – E-Commerce</h4>
+          <span>Java • JSP • Servlets • MySQL</span>
+          <p>Cart, orders, role-based access, clean backend logic.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact">
+  <div class="container text-center">
+    <h2 class="title text-white">Contact</h2>
+    <p>Email: kamaldev@example.com</p>
+    <p>GitHub: github.com/yourusername</p>
+  </div>
 </section>
 
 <footer>

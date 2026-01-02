@@ -1,55 +1,99 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f4f6f8;
-  color: #333;
+  font-family: 'Poppins', sans-serif;
+  background: #f8f9fa;
 }
 
-.header {
-  background: #0d6efd;
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
   color: white;
+  padding: 90px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero h4 {
+  margin-top: 10px;
+}
+
+.hero p {
+  margin: 15px 0;
+  opacity: 0.9;
+}
+
+.hero-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* SECTION */
+.section {
+  padding: 70px 0;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* SOFT BACKGROUND */
+.bg-soft {
+  background: #eef3ff;
+}
+
+/* GLASS SKILL CARD */
+.glass-card {
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(10px);
+  padding: 25px;
   text-align: center;
-  padding: 60px 20px;
+  font-weight: 600;
+  border-radius: 15px;
+  transition: 0.4s;
 }
 
-.btn {
+.glass-card:hover {
+  transform: translateY(-10px);
+  background: #2575fc;
+  color: white;
+}
+
+/* PROJECT CARD */
+.project-box {
   background: white;
-  color: #0d6efd;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  transition: 0.4s;
 }
 
-section {
-  padding: 40px 20px;
-  max-width: 900px;
-  margin: auto;
+.project-box span {
+  color: #2575fc;
+  font-size: 14px;
 }
 
-.skills ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.project-box:hover {
+  transform: scale(1.05);
+  border-left: 6px solid #6a11cb;
 }
 
-.skills li {
-  background: #e9ecef;
-  padding: 10px 15px;
-  border-radius: 5px;
-  list-style: none;
+/* CONTACT */
+.contact {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  color: white;
 }
 
-.project {
-  background: white;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-left: 5px solid #0d6efd;
-}
-
+/* FOOTER */
 footer {
+  background: #111;
+  color: white;
   text-align: center;
   padding: 15px;
-  background: #222;
-  color: white;
 }
