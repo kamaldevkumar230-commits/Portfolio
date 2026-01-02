@@ -1,99 +1,84 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  background: #f8f9fa;
+body{
+  background:#0b0f1a;
+  color:#fff;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 /* HERO */
-.hero {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: white;
-  padding: 90px 0;
+.hero3d{
+  background: radial-gradient(circle at top,#6a11cb,#000);
+  padding:100px 0;
 }
 
-.hero h1 {
-  font-size: 3rem;
-  font-weight: 700;
+.hero3d h1{
+  font-size:3.2rem;
+  font-weight:800;
 }
 
-.hero h4 {
-  margin-top: 10px;
+.btn-glow{
+  background:linear-gradient(45deg,#ffcc00,#ff6600);
+  padding:14px 30px;
+  border-radius:30px;
+  color:#000;
+  font-weight:700;
+  box-shadow:0 0 20px #ff9900;
+  text-decoration:none;
 }
 
-.hero p {
-  margin: 15px 0;
-  opacity: 0.9;
-}
-
-.hero-img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 6px solid #fff;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+.profile-3d{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  border:6px solid #fff;
+  box-shadow:0 20px 50px rgba(0,0,0,.7);
 }
 
 /* SECTION */
-.section {
-  padding: 70px 0;
+.section{padding:80px 0;}
+.dark{background:#050814;}
+
+.title{font-weight:800;}
+.neon{color:#00f7ff;text-shadow:0 0 20px #00f7ff;}
+
+.desc{max-width:800px;margin:auto;color:#bbb}
+
+/* SKILL GRAPH */
+.skill-bar{margin:20px 0}
+.skill-bar span{font-weight:600}
+.bar{
+  background:#222;
+  height:14px;
+  border-radius:20px;
+  overflow:hidden;
+}
+.bar div{
+  height:100%;
+  background:linear-gradient(90deg,#00f7ff,#6a11cb);
+  box-shadow:0 0 15px #00f7ff;
 }
 
-.title {
-  font-weight: 700;
-  margin-bottom: 20px;
+/* 3D CARD */
+.card3d{
+  background:linear-gradient(145deg,#0f172a,#020617);
+  padding:30px;
+  border-radius:20px;
+  box-shadow:15px 15px 40px #000,-10px -10px 30px #111;
+  transition:.4s;
 }
 
-/* SOFT BACKGROUND */
-.bg-soft {
-  background: #eef3ff;
-}
-
-/* GLASS SKILL CARD */
-.glass-card {
-  background: rgba(255,255,255,0.6);
-  backdrop-filter: blur(10px);
-  padding: 25px;
-  text-align: center;
-  font-weight: 600;
-  border-radius: 15px;
-  transition: 0.4s;
-}
-
-.glass-card:hover {
-  transform: translateY(-10px);
-  background: #2575fc;
-  color: white;
-}
-
-/* PROJECT CARD */
-.project-box {
-  background: white;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
-  transition: 0.4s;
-}
-
-.project-box span {
-  color: #2575fc;
-  font-size: 14px;
-}
-
-.project-box:hover {
-  transform: scale(1.05);
-  border-left: 6px solid #6a11cb;
+.card3d:hover{
+  transform:translateY(-15px) rotateX(5deg);
+  box-shadow:0 25px 60px #000;
 }
 
 /* CONTACT */
-.contact {
-  background: linear-gradient(135deg, #2575fc, #6a11cb);
-  color: white;
+.contact3d{
+  background:linear-gradient(135deg,#6a11cb,#000);
 }
 
 /* FOOTER */
-footer {
-  background: #111;
-  color: white;
-  text-align: center;
-  padding: 15px;
+.footer3d{
+  background:#000;
+  text-align:center;
+  padding:15px;
 }
